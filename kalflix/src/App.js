@@ -9,7 +9,7 @@ const categories = [
   "INTRODUÇÃO",
   "2007 a 2009",
   "2010 a 2016",
-  "2022 até agora"
+  "2022 até agora (BOPE)"
 ]
 
 function filterCategory(id){
@@ -21,21 +21,29 @@ function App() {
     <>
       <Header />
       <Container>
-        <Category category={categories[0]}>
+      <Category category={categories[0]}>
           {filterCategory(0).map((video)=> <Card id={video.id} key={video.id}/>)}
-        </Category>
+      </Category>
 
-        <Category category={categories[1]}>
-          {filterCategory(1).map((video)=> <Card id={video.id} key={video.id}/>)}
+      <Category category={categories[3]}>
+          {filterCategory(3).map((video)=> <Card id={video.id} key={video.id}/>)}
         </Category>
 
         <Category category={categories[2]}>
           {filterCategory(2).map((video)=> <Card id={video.id} key={video.id}/>)}
         </Category>
 
-        <Category category={categories[3]}>
-          {filterCategory(3).map((video)=> <Card id={video.id} key={video.id}/>)}
+        <Category category={categories[1]}>
+          {filterCategory(1).map((video)=> <Card id={video.id} key={video.id}/>)}
         </Category>
+
+        
+
+        
+
+        
+
+        
 
       </Container>
 
