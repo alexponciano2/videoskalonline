@@ -1,7 +1,7 @@
 .header {
     background-color: black;
-    color: red;
-    border-bottom: 2px solid red;
+    color: #f44336;
+    border-bottom: 2px solid #f44336;
     position: fixed;
     width: 100%;
     display: flex;
@@ -13,18 +13,16 @@
 }
 
 .header a {
-    color: red;
+    color: #f44336;
     padding: 10px;
     text-decoration: none;
+    transition: .5s;
 }
 
 .header a:hover {
-    text-decoration: overline;
-	color: rgb(255, 233, 110);
-	text-shadow: none;
-	-webkit-transition: 300ms linear 0s;
-	-moz-transition: 300ms linear 0s;
-	-o-transition: 300ms linear 0s;
-	transition: 300ms linear 0s;
-	outline: 0 none;
+    color: #fff;
+    text-shadow:    0 0 5px #03e9f4,
+                    0 0 25px #03e9f4,
+                    0 0 50px #03e9f4,
+                    0 0 100px #03e9f4;
 }
