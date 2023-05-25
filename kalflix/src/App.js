@@ -37,7 +37,6 @@ function App() {
           {filterCategory(3).map((video)=> <Card id={video.id} key={video.id}/>)}
         </Category>
 
-
       </Container>
 
       <Footer />
