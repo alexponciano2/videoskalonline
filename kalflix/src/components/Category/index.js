@@ -3,6 +3,7 @@ import videos from "../../json/db.json"
 
 export const categories = [
     "INTRODUÇÃO",
+    "Melhor do Ano!",
     "2007 a 2009",
     "2010 a 2016",
     "2022 até agora (BOPE)"
