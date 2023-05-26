@@ -14,9 +14,9 @@
 
 .header a {
     color: #f44336;
-    padding: 10px;
     text-decoration: none;
     transition: .5s;
+    margin-inline: 8px;
 }
 
 .header a:hover {
