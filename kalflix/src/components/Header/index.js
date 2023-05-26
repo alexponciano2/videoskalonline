@@ -9,7 +9,7 @@ function Header() {
             </Link>
             <nav>                
                 <Link to="https://wa.link/yurlym" target="_blank">WhatsApp</Link>
-                <Link to="/table">Loja</Link>
+                <Link to="https://alexponciano2.github.io/kalsale/">Loja</Link>
             </nav>
         </header>
     );
