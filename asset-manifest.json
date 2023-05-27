@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/KalFlix/static/css/main.66bd32d1.css",
+    "main.js": "/KalFlix/static/js/main.0115d9b8.js",
+    "index.html": "/KalFlix/index.html",
+    "main.66bd32d1.css.map": "/KalFlix/static/css/main.66bd32d1.css.map",
+    "main.0115d9b8.js.map": "/KalFlix/static/js/main.0115d9b8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.66bd32d1.css",
+    "static/js/main.0115d9b8.js"
+  ]
+}
