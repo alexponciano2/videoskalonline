@@ -10,27 +10,13 @@ function Home() {
     <>
       <Header />
       <Container>
-      <Category category={categories[0]}>
-          {filterCategory(0).map((video)=> <Card id={video.id} key={video.id}/>)}
-      </Category>
 
-      <Category category={categories[1]}>
-          {filterCategory(1).map((video)=> <Card id={video.id} key={video.id}/>)}
+        { categories.map((category, index) => <Category category={category}>
+          {filterCategory(index).map((video)=> <Card id={video.id} key={video.id}/>)}
         </Category>
-
-      <Category category={categories[4]}>
-          {filterCategory(4).map((video)=> <Card id={video.id} key={video.id}/>)}
-        </Category>
-
-        <Category category={categories[3]}>
-          {filterCategory(3).map((video)=> <Card id={video.id} key={video.id}/>)}
-        </Category>
-
-        <Category category={categories[2]}>
-          {filterCategory(2).map((video)=> <Card id={video.id} key={video.id}/>)}
-        </Category> 
-        
+        )}
         </Container>
+
 
       <Footer />
     </>

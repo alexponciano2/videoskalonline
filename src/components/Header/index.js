@@ -8,8 +8,8 @@ function Header() {
                 <span>KalFlix</span>
             </Link>
             <nav>                
-                <Link to="https://wa.link/yurlym" target="_blank">WhatsApp</Link>
-                <Link to="https://alexponciano2.github.io/kalsale/">Loja</Link>
+                <Link to="/">Home</Link>
+                <Link to="/watch">Assistir</Link>
             </nav>
         </header>
     );
