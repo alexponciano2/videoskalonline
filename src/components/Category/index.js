@@ -4,9 +4,9 @@ import videos from "../../json/db.json"
 export const categories = [
     "INTRODUÇÃO",
     "Melhor do Ano!",
-    "2007 a 2009",
-    "2010 a 2016",
-    "2022 até agora (BOPE)"
+    "2007, 2008 e 2009",
+    "2010, 2011, 2012, 2013, 2014, 2015, 2016 e 2017",
+    "2022 e 2023 (BOPE)"
   ]
   
  export function filterCategory(id){

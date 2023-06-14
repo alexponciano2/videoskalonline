@@ -6,6 +6,7 @@ import Header from "../../components/Header";
 
 
 function Home() {
+
   return (
     <>
       <Header />
@@ -15,6 +16,7 @@ function Home() {
           {filterCategory(index).map((video)=> <Card id={video.id} key={video.id}/>)}
         </Category>
         )}
+
         </Container>
 
 
